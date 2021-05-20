@@ -1,0 +1,45 @@
+.todo{
+  display: block;
+
+
+}
+.delete{
+  float: right;
+  height: 3vmin;
+  padding: 1vmin;
+  background: red;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+  border-radius: 15px;
+}
+.container{
+  margin: 20vmin;
+}
+.todo.done .content{
+  text-decoration: line-through;
+}
+.todo-input{
+  height: 7vmin;
+  border: none;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.342);
+  border-radius: 10px;
+}
+.todo-submit{
+  width: 30%;
+  height: 5vmin;
+  margin-top: 2vmin;
+  background: rgb(11, 146, 225);border: none;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 14px;
+  overflow: hidden;
+
+}
+.todo-submit
+:hover{
+  border: none;
+}
